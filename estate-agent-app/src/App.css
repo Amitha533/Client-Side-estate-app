@@ -1,13 +1,18 @@
 /* ============================================
    GLOBAL STYLES & RESET
    ============================================ */
+/* Make the react-datepicker calendar appear above other fields */
+
 
 * {
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+.react-datepicker-popper {
+  z-index: 9999 !important;
+}
 :root {
   /* Color Palette */
   --primary-color: #2563eb;
