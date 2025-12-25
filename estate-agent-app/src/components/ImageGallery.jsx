@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
 
+
 /**
  * ImageGallery Component
  * Displays property images with thumbnail navigation
@@ -99,6 +100,7 @@ const ImageGallery = ({ images, altText }) => {
           {currentIndex + 1} / {images.length}
         </div>
       </div>
+      
 
       {/* Thumbnail Strip */}
       <div className="gallery-thumbnails">

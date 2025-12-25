@@ -21,6 +21,7 @@ const PropertyList = ({ properties, onAddToFavourites, favourites }) => {
   return (
     <div className="property-list">
       <h2>Search Results ({properties.length} {properties.length === 1 ? 'property' : 'properties'})</h2>
+      
       <div className="property-grid">
         {properties.map(property => (
           <PropertyCard
@@ -28,6 +29,7 @@ const PropertyList = ({ properties, onAddToFavourites, favourites }) => {
             property={property}
             onAddToFavourites={onAddToFavourites}
             isFavourite={favourites.some(fav => fav.id === property.id)}
+            hideBadge={false}   // ★ BADGE SHOWN HERE ★
           />
         ))}
       </div>

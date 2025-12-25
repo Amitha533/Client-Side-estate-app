@@ -9,8 +9,9 @@ import { FaHeart, FaRegHeart, FaBed, FaMapMarkerAlt } from 'react-icons/fa';
  * @param {Object} property - Property object
  * @param {Function} onAddToFavourites - Callback to add to favourites
  * @param {Boolean} isFavourite - Whether property is in favourites
+ * @param {Boolean} hideBadge - Whether to hide the property-type badge
  */
-const PropertyCard = ({ property, onAddToFavourites, isFavourite }) => {
+const PropertyCard = ({ property, onAddToFavourites, isFavourite, hideBadge }) => {
   
   const handleFavouriteClick = (e) => {
     e.preventDefault(); // Prevent link navigation
@@ -34,7 +35,11 @@ const PropertyCard = ({ property, onAddToFavourites, isFavourite }) => {
               e.target.src = 'https://via.placeholder.com/400x300?text=Property+Image';
             }}
           />
-          <span className="property-type-badge">{property.type}</span>
+
+          {/* ★ Hide badge based on prop ★ */}
+          {!hideBadge && (
+            <span className="property-type-badge">{property.type}</span>
+          )}
         </div>
         
         <div className="property-card-content">

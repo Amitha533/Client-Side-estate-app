@@ -46,8 +46,9 @@ const PropertyDetails = ({ properties, onAddToFavourites, favourites }) => {
       <div className="property-header">
         <div className="property-title-section">
           <h1>{property.description}</h1>
+
           <div className="property-meta">
-            <span className="property-type-badge">{property.type}</span>
+            {/* REMOVED THE BADGE */}
             <span className="property-location">
               <FaMapMarkerAlt /> {property.location}
             </span>
