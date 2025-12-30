@@ -925,6 +925,7 @@ body {
 .app-footer {
   background-color: var(--text-primary);
   color: white;
+  background-color: #1443a8;
   text-align: center;
   padding: var(--spacing-lg);
   margin-top: var(--spacing-xl);
