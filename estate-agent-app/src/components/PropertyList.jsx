@@ -1,3 +1,4 @@
+// PropertyList: renders a grid of PropertyCard components and a no-results message
 import React from 'react';
 import PropertyCard from './PropertyCard';
 

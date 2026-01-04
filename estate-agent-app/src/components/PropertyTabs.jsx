@@ -1,3 +1,4 @@
+// PropertyTabs: tabbed panels for description, floor plan and map
 import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';

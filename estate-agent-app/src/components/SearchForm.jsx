@@ -1,3 +1,4 @@
+// SearchForm: user-facing form for building search criteria using widgets
 import React, { useState } from 'react';
 import Select from 'react-select';
 import DatePicker from 'react-datepicker';

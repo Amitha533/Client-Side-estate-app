@@ -1,3 +1,4 @@
+// FavouritesList: panel showing saved favourites with drag & drop support
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { formatPrice } from '../utils/searchLogic';

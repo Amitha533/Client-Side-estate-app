@@ -1,3 +1,4 @@
+// Utility to report web vitals metrics (e.g., LCP, FID) to an analytics endpoint
 const reportWebVitals = onPerfEntry => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
     import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {

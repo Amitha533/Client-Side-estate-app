@@ -1,3 +1,4 @@
+// PropertyDetails: shows full details for a selected property (images, tabs, meta)
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ImageGallery from './ImageGallery';

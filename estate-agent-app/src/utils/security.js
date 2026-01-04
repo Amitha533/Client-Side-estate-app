@@ -1,3 +1,4 @@
+// Small security helpers for input sanitization and validation
 /**
  * Security utility functions
  * React automatically escapes JSX, but these functions provide additional safety

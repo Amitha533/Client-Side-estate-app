@@ -1,3 +1,4 @@
+# App robots file - allow all agents by default
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:

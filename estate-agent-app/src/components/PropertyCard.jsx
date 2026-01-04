@@ -1,3 +1,4 @@
+// PropertyCard: compact card displaying key property details and favourite button
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { formatPrice } from '../utils/searchLogic';

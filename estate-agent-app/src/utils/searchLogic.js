@@ -1,3 +1,4 @@
+// Utilities for searching and formatting property data
 /**
  * Search properties based on multiple criteria
  * Handles any combination of 1-5 search criteria

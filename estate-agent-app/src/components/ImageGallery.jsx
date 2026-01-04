@@ -1,3 +1,4 @@
+// ImageGallery component: displays property images, thumbnails, and a lightbox view
 import React, { useState } from 'react';
 import { FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
 
